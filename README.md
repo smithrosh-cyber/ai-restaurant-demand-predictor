@@ -1,54 +1,29 @@
-AI Restaurant Demand Predictor
+# AI Restaurant Demand Predictor
 
 Building AI course project
 
-Summary
-
+## Summary
 An AI system that predicts restaurant and hotel food demand using past sales, weather, and seasonal trends. This helps reduce food waste, improve preparation planning, and increase restaurant profit.
 
-Background
-
+## Background
 Restaurants frequently face demand uncertainty which leads to:
-
 * Food wastage and financial loss
 * Running out of popular dishes
 * Poor staff planning
 
 As a hotel operations manager, I personally experience these challenges in daily restaurant operations.
 
-How is it used?
+## How is it used?
+The system analyzes previous billing data, customer flow, weather, and seasonal patterns to predict next-day demand. Restaurant managers can use this insight to prepare ingredients, manage staff, and avoid shortages.
 
-The system analyzes previous billing data, customer flow, weather, and seasonal patterns to predict next-day demand.
-Managers can prepare inventory, kitchen prep, and staffing accordingly.
+## Data sources and AI methods
+The system can use POS billing data, reservation data, weather forecasts, and seasonal trends. Machine learning methods like regression and time-series prediction can be used.
 
-Data sources and AI methods
+## Challenges
+Prediction accuracy depends on data quality. Unexpected events like sudden weather changes or festivals may affect results.
 
-Data sources:
+## What next?
+This project can be expanded into a real mobile dashboard for restaurant owners with automated alerts and inventory suggestions.
 
-* POS billing history
-* Festival and seasonal trends
-* Weather data
-* Customer visit patterns
-
-AI methods:
-
-* Regression models
-* Time-series forecasting
-* Machine learning demand prediction
-
-Challenges
-
-* Requires quality historical data
-* Sudden events can affect predictions
-* Small restaurants may lack digital billing data
-
-What next?
-
-* Mobile prediction dashboard
-* Integration with POS software
-* Staff scheduling prediction
-* Multi-branch demand comparison
-
-Acknowledgments
-
-This idea is inspired by real-world restaurant management experience and the Building AI course.
+## Acknowledgments
+Inspired by real restaurant operational challenges and the Building AI course.
